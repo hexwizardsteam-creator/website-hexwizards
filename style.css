@@ -15,7 +15,12 @@ header {
     color: rgb(251, 251, 251);
     padding: 20px 0;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+header h1 {
+    color: rgb(251, 251, 251);
+    text-shadow: -1px -1px 0 rgb(74, 77, 81), 1px -1px 0 rgb(74, 77, 81), -1px 1px 0 rgb(74, 77, 81), 1px 1px 0 rgb(74, 77, 81);
 }
 
 nav {
@@ -24,8 +29,8 @@ nav {
     justify-content: center;
     padding: 10px 0;
     margin-bottom: 20px;
-    border-top: 2px solid #000;
-    border-bottom: 2px solid #000;
+    border-top: 2px solid rgb(74, 77, 81);
+    border-bottom: 2px solid rgb(74, 77, 81);
 }
 
 nav a {
@@ -46,7 +51,7 @@ section {
     background-color: rgba(255, 255, 255, 0.87);
     margin-bottom: 20px;
     border-radius: 10px;
-    border: 2px solid #000;
+    border: 2px solid rgb(74, 77, 81);
 }
 
 footer {
