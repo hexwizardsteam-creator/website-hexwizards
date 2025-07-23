@@ -3,18 +3,23 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #e7edff;
+    background-image: url('bg.jpg');
+    background-size: 600px 300px;
+    /* background-size: cover;
+    background-position: center; */
+    /* background-color: #e7edff; */
 }
 
 header {
-    background: #065a7b;
-    color: #fff;
+    background: #74b5f7;
+    color: white;
     padding: 20px 0;
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 nav {
-    background: #0a6e94;
+    background: hsl(210, 64%, 62%);
     display: flex;
     justify-content: center;
     padding: 10px 0;
