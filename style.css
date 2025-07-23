@@ -59,4 +59,6 @@ footer {
     background: hsl(210, 52%, 58%);
     color: white;
     padding: 15px 0;
+    margin-top: 20px;
+    border: 2px solid rgb(74, 77, 81);
 }
