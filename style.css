@@ -5,13 +5,10 @@ body {
     padding: 0;
     background-image: url('bg.jpg');
     background-size: 600px 300px;
-    /* background-size: cover;
-    background-position: center; */
-    /* background-color: #e7edff; */
 }
 
 header {
-    background: #6ca7e1;
+    background: #699bcd;
     color: rgb(251, 251, 251);
     padding: 20px 0;
     text-align: center;
@@ -24,7 +21,7 @@ header h1 {
 }
 
 nav {
-    background: hsl(210, 52%, 58%);
+    background: hsl(210, 44%, 53%);
     display: flex;
     justify-content: center;
     padding: 10px 0;
@@ -53,6 +50,7 @@ section {
     margin-bottom: 20px;
     border-radius: 10px;
     border: 2px solid rgb(74, 77, 81);
+
 }
 
 footer {
@@ -66,4 +64,9 @@ footer {
 
 p {
     margin: 30px;
+    line-height: 32px;
+}
+
+h2 {
+    margin: 15px;
 }
