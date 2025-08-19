@@ -1,3 +1,5 @@
+/* Base styles */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -17,7 +19,10 @@ header {
 
 header h1 {
     color: rgb(251, 251, 251);
-    text-shadow: -1px -1px 0 rgb(74, 77, 81), 1px -1px 0 rgb(74, 77, 81), -1px 1px 0 rgb(74, 77, 81), 1px 1px 0 rgb(74, 77, 81);
+    text-shadow: -1px -1px 0 rgb(74, 77, 81),
+                 1px -1px 0 rgb(74, 77, 81),
+                -1px 1px 0 rgb(74, 77, 81),
+                 1px 1px 0 rgb(74, 77, 81);
 }
 
 nav {
@@ -28,11 +33,14 @@ nav {
     margin-bottom: 20px;
     border-top: 2px solid rgb(74, 77, 81);
     border-bottom: 2px solid rgb(74, 77, 81);
-    text-shadow: -1px -1px 0 rgb(74, 77, 81), 1px -1px 0 rgb(74, 77, 81), -1px 1px 0 rgb(74, 77, 81), 1px 1px 0 rgb(74, 77, 81);
+    text-shadow: -1px -1px 0 rgb(74, 77, 81),
+                 1px -1px 0 rgb(74, 77, 81),
+                -1px 1px 0 rgb(74, 77, 81),
+                 1px 1px 0 rgb(74, 77, 81);
     overflow-x: auto;
     white-space: nowrap;
+    min-width: 100vw;
 }
-
 
 nav a {
     color: rgb(255, 255, 255);
@@ -54,7 +62,6 @@ section {
     margin-bottom: 20px;
     border-radius: 10px;
     border: 2px solid rgb(74, 77, 81);
-
 }
 
 footer {
@@ -100,4 +107,35 @@ h2 {
     width: auto;
     height: 24px;
     vertical-align: middle;
+}
+
+/* Mobile responsiveness */
+
+@media (max-width: 768px) {
+    section {
+        width: 90%;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 5px 0;
+    }
+
+    header h1 {
+        font-size: 1.3em;
+        padding: 0 10px;
+    }
+
+    p {
+        margin: 15px;
+        line-height: 28px;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
 }
