@@ -71,8 +71,8 @@ section {
 footer {
     background: hsl(210, 52%, 58%);
     color: black;
-    padding: 15px 0;
-    margin-top: 20px;
+    /* padding: 15px 0; */
+    /* margin-top: 20px; */
     border: 2px solid #4a4d51;
     text-align: center;
 }
