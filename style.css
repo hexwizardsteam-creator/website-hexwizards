@@ -1,11 +1,10 @@
-/* Base Styles */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1.4;
     margin: 0;
     padding: 0;
     background-image: url('bg.jpg');
-    background-size: 600px 300px;
+    background-size: 765px
 }
 
 header,
@@ -15,33 +14,39 @@ nav {
 }
 
 header {
-    background: #69a3dd;
+    background: #77a1d9;
     color: #fbfbfb;
     padding: 20px 0;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Play", sans-serif;
 }
 
 header h1 {
     margin: 0;
-    color: #fbfbfb;
-    text-shadow: -1px -1px 0 #4a4d51,
-                 1px -1px 0 #4a4d51,
-                -1px 1px 0 #4a4d51,
-                 1px 1px 0 #4a4d51;
+    color: #ffffff;
+    text-shadow: -0.8px -0.8px 0 #000000,
+        0.8px -0.8px 0 #000000,
+        -0.8px 0.8px 0 #000000,
+        0.8px 0.8px 0 #000000;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Noto Sans Display", sans-serif;
+
 }
 
 nav {
-    background: hsl(210, 44%, 53%);
+    background: #2063aa;
     display: flex;
     justify-content: center;
     padding: 10px 0;
-    border-top: 2px solid #4a4d51;
-    border-bottom: 2px solid #4a4d51;
-    text-shadow: -1px -1px 0 #4a4d51,
-                 1px -1px 0 #4a4d51,
-                -1px 1px 0 #4a4d51,
-                 1px 1px 0 #4a4d51;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    text-shadow: -0.5px -0.5px 0 #000000,
+        0.5px -0.5px 0 #000000,
+        -0.5px 0.5px 0 #000000,
+        0.5px 0.5px 0 #000000;
     overflow-x: auto;
     white-space: nowrap;
 }
@@ -62,24 +67,24 @@ section {
     max-width: 1000px;
     width: 70%;
     margin: 0 auto 20px auto;
-    background-color: rgba(255, 255, 255, 0.87);
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
-    border: 2px solid #4a4d51;
+    border: 1px solid #000000;
     margin-top: 20px;
 }
 
 footer {
-    background: hsl(210, 52%, 58%);
+    background: #77a1d9;
     color: black;
-    /* padding: 15px 0; */
-    /* margin-top: 20px; */
-    border: 2px solid #4a4d51;
+    border: 1px solid #000000;
     text-align: center;
 }
 
 p {
+    font-size: 108%;
     margin: 30px;
-    line-height: 32px;
+    line-height: 38px;
+    font-family: "Play", sans-serif;
 }
 
 h2 {
@@ -88,7 +93,7 @@ h2 {
 
 hr {
     border: none;
-    border-top: 2px solid black;
+    border-top: 1px solid black;
     margin-top: 5px;
 }
 
@@ -100,11 +105,11 @@ img#insta {
     padding-right: 2px;
 }
 
-#robot_pal {
-    width: 30px;
-    height: 30px;
+#gear {
+    width: 45px;
+    height: 45px;
     filter: brightness(87%);
-    vertical-align: top;
+    vertical-align:middle;
 }
 
 #discord {
