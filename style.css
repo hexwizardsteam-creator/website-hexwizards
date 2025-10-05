@@ -64,6 +64,7 @@ nav a:hover {
 }
 
 section {
+    position: relative;
     padding: 10px 10px;
     max-width: 1000px;
     width: 70%;
@@ -105,6 +106,31 @@ img#mail,
 img#insta {
     vertical-align: middle;
     padding-right: 2px;
+}
+
+#screw-left {
+    width: 25px;
+    transform: rotate(40deg);
+}
+
+#screw-topright {
+    width: 25px;
+    transform: rotate(70deg);
+    position: relative;
+    right: 30%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#screw-bottomright {
+    width: 25px;
+    transform: rotate(33deg);
+    position: relative;
+    right: 30%;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
 
 #gear {
@@ -156,5 +182,5 @@ img#insta {
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
