@@ -111,6 +111,8 @@ img#insta {
 #screw-tleft {
     width: 22px;
     transform: rotate(40deg);
+    position: absolute;
+    top: 10px;
 }
 
 #screw-bleft {
