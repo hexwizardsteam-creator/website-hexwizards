@@ -109,19 +109,19 @@ img#insta {
 }
 
 #screw-tleft {
-    width: 25px;
+    width: 22px;
     transform: rotate(40deg);
 }
 
 #screw-bleft {
-    width: 25px;
+    width: 22px;
     transform: rotate(40deg);
     position: absolute;
     bottom: 10px;
 }
 
 #screw-topright {
-    width: 25px;
+    width: 22px;
     transform: rotate(70deg);
     position: relative;
     right: 30%;
@@ -131,7 +131,7 @@ img#insta {
 }
 
 #screw-bottomright {
-    width: 25px;
+    width: 22px;
     transform: rotate(33deg);
     position: relative;
     right: 30%;
