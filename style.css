@@ -108,9 +108,16 @@ img#insta {
     padding-right: 2px;
 }
 
-#screw-left {
+#screw-tleft {
     width: 25px;
     transform: rotate(40deg);
+}
+
+#screw-bleft {
+    width: 25px;
+    transform: rotate(40deg);
+    position: absolute;
+    bottom: 10px;
 }
 
 #screw-topright {
