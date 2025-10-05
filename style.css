@@ -110,7 +110,7 @@ img#insta {
 #gear {
     width: 40px;
     filter: brightness(87%);
-    vertical-align:-50%;
+    vertical-align: middle;
 }
 
 #discord {
