@@ -49,6 +49,7 @@ nav {
         0.5px 0.5px 0 #000000;
     overflow-x: auto;
     white-space: nowrap;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 }
 
 nav a {
@@ -71,6 +72,7 @@ section {
     border-radius: 10px;
     border: 1px solid #000000;
     margin-top: 20px;
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1);
 }
 
 footer {
@@ -106,10 +108,9 @@ img#insta {
 }
 
 #gear {
-    width: 45px;
-    height: 45px;
+    width: 40px;
     filter: brightness(87%);
-    vertical-align:middle;
+    vertical-align:-50%;
 }
 
 #discord {
@@ -152,4 +153,8 @@ img#insta {
     h2 {
         font-size: 1.2em;
     }
+}
+
+html {
+  scroll-behavior: smooth;
 }
