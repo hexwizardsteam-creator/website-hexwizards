@@ -14,7 +14,7 @@ nav {
 }
 
 header {
-    background: #77a1d9;
+    background: #76a1d8;
     color: #fbfbfb;
     padding: 20px 0;
     text-align: center;
@@ -38,7 +38,7 @@ h2 {
 }
 
 nav {
-    background: #2063aa;
+    background: #2163aa;
     display: flex;
     justify-content: center;
     padding: 10px 0;
@@ -80,7 +80,7 @@ section {
 }
 
 footer {
-    background: #77a1d9;
+    background: #76a1d8;
     color: black;
     border: 1px solid #000000;
     text-align: center;
