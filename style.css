@@ -121,6 +121,10 @@ img#insta {
     padding-right: 2px;
 }
 
+#uoc {
+    border-radius: 50%
+}
+
 #kleo {
     vertical-align: middle;
     border-radius: 50%;
