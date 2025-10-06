@@ -24,7 +24,7 @@ header {
 header h1 {
     margin: 0;
     color: #2163aa;
-    font-size: 230% ;
+    font-size: 230%;
     /* text-shadow: -0.8px -0.8px 0 #000000,
         0.8px -0.8px 0 #000000,
         -0.8px 0.8px 0 #000000,
@@ -34,6 +34,13 @@ header h1 {
 h2 {
     text-align: center;
     font-family: "Noto Sans Display", sans-serif;
+    margin: 15px;
+    /* color: #76a1d8;
+    text-shadow: -0.8px -0.8px 0 #000000,
+        0.8px -0.8px 0 #000000,
+        -0.8px 0.8px 0 #000000,
+        0.8px 0.8px 0 #000000; 
+    letter-spacing: 1px; */
 
 }
 
@@ -100,10 +107,6 @@ h3 {
     font-size: 130%;
 }
 
-h2 {
-    margin: 15px;
-}
-
 hr {
     border: none;
     border-top: 1px solid black;
@@ -116,6 +119,17 @@ img#mail,
 img#insta {
     vertical-align: middle;
     padding-right: 2px;
+}
+
+#kleo {
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 50px;
+}
+
+#ots {
+    width: 50px;
+    vertical-align: middle;
 }
 
 #ftc {
