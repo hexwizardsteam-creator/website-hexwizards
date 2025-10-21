@@ -87,6 +87,7 @@ section {
 }
 
 footer {
+    height: 30px;
     background: #76a1d8;
     color: black;
     border: 1px solid #000000;
@@ -98,6 +99,7 @@ p {
     margin: 30px;
     line-height: 38px;
     font-family: "Play", sans-serif;
+    
 }
 
 h3 {
@@ -113,33 +115,9 @@ hr {
     margin-top: 5px;
 }
 
-img#robot_pal,
-img#discord,
-img#mail,
-img#insta {
-    vertical-align: middle;
-    padding-right: 2px;
-}
 
 #uoc {
     border-radius: 50%
-}
-
-#kleo {
-    vertical-align: middle;
-    border-radius: 50%;
-    width: 50px;
-}
-
-#ots {
-    width: 50px;
-    vertical-align: middle;
-}
-
-#ftc {
-    width: 250px;
-    margin: 30px;
-    float: left;
 }
 
 #screw-tleft {
@@ -180,18 +158,6 @@ img#insta {
     width: 40px;
     filter: brightness(87%);
     vertical-align: middle;
-}
-
-#discord {
-    height: 15px;
-}
-
-#mail {
-    height: 20px;
-}
-
-#insta {
-    height: 24px;
 }
 
 /* Responsive Design */
