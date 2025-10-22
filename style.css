@@ -3,8 +3,8 @@ body {
     line-height: 1.4;
     margin: 0;
     padding: 0;
-    background-image: url('bg.jpg');
-    background-size: 765px
+    background-image: url('a.jfif');
+    background-size: 600px;
 }
 
 header,
@@ -14,21 +14,11 @@ nav {
 }
 
 header {
-    background: #76a1d8;
-    color: #fbfbfb;
+    background: #144569;
+    color: #ffffff;
     padding: 20px 0;
     text-align: center;
     font-family: "Play", sans-serif;
-}
-
-header h1 {
-    margin: 0;
-    color: #2163aa;
-    font-size: 230%;
-    /* text-shadow: -0.8px -0.8px 0 #000000,
-        0.8px -0.8px 0 #000000,
-        -0.8px 0.8px 0 #000000,
-        0.8px 0.8px 0 #000000; */
 }
 
 h2 {
@@ -45,7 +35,7 @@ h2 {
 }
 
 nav {
-    background: #2163aa;
+    background: #110031;
     display: flex;
     justify-content: center;
     padding: 10px 0;
